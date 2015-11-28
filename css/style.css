@@ -1,0 +1,83 @@
+
+.back_to{
+	width: 100%;
+    background: rgba(79, 86, 85, 0.27);
+    text-align: center;
+    padding: 5px 0 5px 0;
+    list-style: none;
+	font-size:25px;
+	font-family:cursive;
+}
+
+a{text-decoration:none!important;}
+a:hover{text-decoration:none;}
+.navbar-bg{
+	width:100%;
+	background:url(../images/nav-bg.png);
+	background-repeat:repeat;
+	
+}
+.menu{
+	
+}
+.menu ul li a{
+	color:#fff!important;
+	
+	transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	
+}
+.menu ul li a:hover{
+	background:#8A74AB!important;
+	color:#000!important;
+}
+
+
+
+body{
+	width:100%;
+	background:#ddd;
+}
+
+.pointer{
+	cursor:pointer
+}
+
+
+.pointer.bdr{
+	border:1px solid #ddd
+}
+
+.green{color:#479E47;}
+
+.login_form{
+	width:100%;
+	background:#ddd;
+	margin-top:50px;
+	padding-bottom:30px;
+
+}
+.login_wrapper{
+	    width: 98%;
+    background: #fff;
+    min-height: 400px;
+    padding-top: 27px;
+	
+}
+.left_side{
+	    width: 100%;
+    background: #F5F5F5;
+    min-height: 350px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.right_side{padding-bottom:20px;}
+.right_side h1{font-size:33px;}
+.right_side nav ul{list-style:none;margin-left:-35px;}
+.right_side nav ul li{padding-bottom:5px;font-size:15px;}
+.right_side nav ul li  span{padding-right: 15px;}
+	a{text-decoration:underline;}
